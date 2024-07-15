@@ -1,9 +1,9 @@
 {
-  "credential_issuer": "https://injicertify-insurance.qa-inji.mosip.net",
+  "credential_issuer": "https://${mosip.injicertify.insurance.host}",
   "authorization_servers": [
-    "https://esignet-insurance.qa-inji.mosip.net"
+    "https://${mosip.esignet.insurance.host}"
   ],
-  "credential_endpoint": "https://injicertify-insurance.qa-inji.mosip.net/v1/certify/issuance/credential",
+  "credential_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/credential",
   "credential_configurations_supported": {
     "InsuranceCredential": {
       "format": "ldp_vc",
@@ -109,12 +109,12 @@
           "name": "Health Insurance",
           "locale": "en",
           "logo": {
-            "url": "https://api.qa-inji.mosip.net/inji/veridonia-logo.png",
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "a square logo of a Veridonia"
           },
           "background_color": "#FDFAF9",
           "background_image": {
-            "uri": "https://api.qa-inji.mosip.net/inji/veridonia-logo.png"
+            "uri": "https://${mosip.api.public.host}/inji/veridonia-logo.png"
           },
           "text_color": "#7C4616"
         }
@@ -224,11 +224,11 @@
           "name": "Life Insurance",
           "locale": "en",
           "logo": {
-            "url": "https://api.qa-inji.mosip.net/inji/veridonia-logo.png",
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "a square logo of a Veridonia"
           },
           "background_image": {
-            "uri": "https://api.qa-inji.mosip.net/inji/veridonia-logo.png"
+            "uri": "https://${mosip.api.public.host}/inji/veridonia-logo.png"
           },
           "background_color": "#FDFAF9",
           "text_color": "#7C4616"
