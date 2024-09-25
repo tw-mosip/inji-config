@@ -1,9 +1,9 @@
 {
   "verifiers": [
     {
-      "client_id": "${mosip.inji.verify.host}",
+      "client_id": "${mosip.injiverify.host}",
       "redirect_uris": [
-        "https://${mosip.inji.verify.host}/redirect"
+        "https://${mosip.injiverify.host}/redirect"
       ]
     }
   ]
