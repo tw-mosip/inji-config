@@ -235,18 +235,18 @@
         "credential_issuer": "MockCertifyDP",
         "display": [
           {
-            "name": "Mock Identity (Certify) DataProvider",
+            "name": "Mock Identity DataProvider",
             "logo": {
               "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
               "alt_text": "mosip-logo"
             },
-            "title": "Mock Identity (Certify) DataProvider",
+            "title": "Mock Identity DataProvider",
             "description": "Download Mock Identity Credential via DataProvider Plugin Impl.",
             "language": "en"
           }
         ],
         "protocol": "OpenId4VCI",
-        "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+        "client_id": "${mimoto.oidc.mock.partner.clientid}",
         "client_alias": "mpartner-mock-testing",
         "scopes_supported": [
           "mock_identity_vc_ldp"
