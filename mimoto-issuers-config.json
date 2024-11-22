@@ -263,7 +263,7 @@
         "credential_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/credential",
         "credential_type": [
           "VerifiableCredential",
-          "MOCKVerifiableCredential_ldp"
+          "MockVerifiableCredential"
         ],
         "credential_audience": "https://${mosip.injicertify.host}",
         "qr_code_type": "OnlineSharing",
