@@ -27,6 +27,10 @@
               {
                 "name": "Name",
                 "locale": "en"
+              },
+              {
+                "name": "नाम",
+                "locale": "hi"
               }
             ]
           },
@@ -107,16 +111,15 @@
       "display": [
         {
           "name": "Health Insurance",
-          "locale": "en",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
-            "alt_text": "a square logo of a Veridonia"
-          },
-          "background_color": "#FDFAF9",
-          "background_image": {
-            "uri": "https://${mosip.api.public.host}/inji/veridonia-logo.png"
-          },
-          "text_color": "#7C4616"
+          "locale": "en"
+        },
+        {
+          "name": "التأمين الصحي",
+          "locale": "ar"
+        },
+        {
+          "name": "स्वास्थ्य बीमा",
+          "locale": "hi"
         }
       ]
     },
@@ -218,22 +221,7 @@
             ]
           }
         }
-      },
-      "display": [
-        {
-          "name": "Life Insurance",
-          "locale": "en",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
-            "alt_text": "a square logo of a Veridonia"
-          },
-          "background_image": {
-            "uri": "https://${mosip.api.public.host}/inji/veridonia-logo.png"
-          },
-          "background_color": "#FDFAF9",
-          "text_color": "#7C4616"
-        }
-      ]
+      }
     }
   }
 }
