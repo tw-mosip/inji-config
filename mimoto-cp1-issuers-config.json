@@ -4,7 +4,7 @@
       "credential_issuer": "Mock",
       "display": [
         {
-          "name": "Mock Identity",
+          "name": "Veridonia National ID Credentials",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "mosip-logo"
