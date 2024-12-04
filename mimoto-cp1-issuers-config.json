@@ -6,7 +6,7 @@
         {
           "name": "Mock Identity",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Identity",
@@ -31,7 +31,7 @@
         {
           "name": "Farmers Credentials",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://raw.githubusercontent.com/aranaravi/kendo-ui-core/master/Agro%20Vertias%20Logo.svg",
             "alt_text": "mosip-logo"
           },
           "title": "Farmers Credentials",
