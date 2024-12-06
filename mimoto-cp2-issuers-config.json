@@ -26,7 +26,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.cp2.partner.clientid}",
-      "client_alias": "mpartner-cp01-mimoto-mock-oidc",
+      "client_alias": "${mimoto.oidc.cp2.partner.clientid}",
       "wellknown_endpoint": "https://${mosip.injicertify.cp2.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
