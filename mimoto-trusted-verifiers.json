@@ -6,7 +6,7 @@
         "https://${mosip.injiverify.host}/redirect"
       ],
        "response_uris": [
-        "https://${mosip.injiverify.host/v1/verify/vp-direct-post"
+        "https://${mosip.injiverify.host}/v1/verify/vp-direct-post"
       ]
     }
   ]
