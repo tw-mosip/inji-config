@@ -331,7 +331,7 @@
           "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
           "qr_code_type": "OnlineSharing",
           "enabled": "true",
-          "credential_issuer_host": "https://${mosip.injicertify.mock.host}"
+          "credential_issuer_host": "http://config-server.config-server1"
         },
     {
       "credential_issuer": "mockFarmer",
@@ -356,7 +356,8 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mockFarmer",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
-      "enabled": "true"
+      "enabled": "true",
+      "credential_issuer_host": "https://nearly-notable-longhorn.ngrok-free.app"
     },
     {
       "credential_issuer": "mockFarmer1",
@@ -381,7 +382,8 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mockFarmer1",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "enabled": "true"
+      "enabled": "true",
+      "credential_issuer_host": "https://${mosip.injicertify.cp1.host}"
     }
   ]
 }
