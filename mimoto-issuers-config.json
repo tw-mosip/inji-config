@@ -141,7 +141,7 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
-      "credential_issuer_id": "https://${mosip.injicertify.mosipid.host}"
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}"
     },
     {
       "credential_issuer": "StayProtected",
@@ -167,7 +167,7 @@
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
-      "credential_issuer_id": "https://${mosip.injicertify.insurance.host}"
+      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}"
     },
     {
       "credential_issuer": "Mock",
@@ -193,7 +193,7 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
-      "credential_issuer_id": "https://${mosip.injicertify.mock.host}"
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}"
     },
     {
       "credential_issuer": "CAR",
@@ -229,7 +229,7 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
-      "credential_issuer_id": "https://${mosip.injicertify.cp1.host}"
+      "credential_issuer_host": "https://${mosip.injicertify.cp1.host}"
     },
     {
       "credential_issuer": "StayProtected-Fallback",
@@ -305,7 +305,7 @@
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
-      "credential_issuer_id": "https://${mosip.injicertify.insurance.host}"
+      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}"
     },
     {
           "credential_issuer": "Mock-Fallback",
@@ -331,7 +331,7 @@
           "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
           "qr_code_type": "OnlineSharing",
           "enabled": "true",
-          "credential_issuer_id": "https://${mosip.injicertify.mock.host}"
+          "credential_issuer_host": "https://${mosip.injicertify.mock.host}"
         }
   ]
 }
