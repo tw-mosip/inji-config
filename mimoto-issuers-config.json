@@ -1,7 +1,7 @@
 {
   "issuers": [
     {
-      "credential_issuer": "MosipOtp",
+      "issuer_id": "MosipOtp",
       "display": [
         {
           "name": "MOSIP National ID",
