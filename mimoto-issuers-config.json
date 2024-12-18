@@ -1,7 +1,7 @@
 {
   "issuers": [
     {
-      "credential_issuer": "MosipOtp",
+      "issuer_id": "MosipOtp",
       "display": [
         {
           "name": "MOSIP National ID",
@@ -68,7 +68,7 @@
       "enabled": "${mosip.otp.download.enable}"
     },
     {
-      "credential_issuer": "Mosip",
+      "issuer_id": "Mosip",
       "display": [
         {
           "name": "National Identity Department",
@@ -140,10 +140,11 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer": "https://${mosip.injicertify.mosipid.host}",
       "enabled": "true"
     },
     {
-      "credential_issuer": "StayProtected",
+      "issuer_id": "StayProtected",
       "display": [
         {
           "name": "StayProtected Insurance",
@@ -165,10 +166,11 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer": "https://${mosip.injicertify.insurance.host}",
       "enabled": "true"
     },
     {
-      "credential_issuer": "Mock",
+      "issuer_id": "Mock",
       "display": [
         {
           "name": "Mock Identity",
@@ -190,10 +192,11 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     },
     {
-      "credential_issuer": "CAR",
+      "issuer_id": "CAR",
       "display": [
         {
           "name": "Land Authority",
@@ -225,110 +228,11 @@
       "token_endpoint": "https://${mosip.injiweb.cp1.host}/v1/mimoto/get-token/CAR",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer": "https://${mosip.injicertify.cp1.host}",
       "enabled": "true"
     },
     {
-      "credential_issuer": "StayProtected-Fallback",
-      "display": [
-        {
-          "name": "Sunbird Insurance",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "a square logo of a Sunbird"
-          },
-          "language": "en",
-          "title": "Download Sunbird Credentials",
-          "description": "Download credentials with your Policy Number"
-        },
-        {
-          "name": "التأمين سنبيرد",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "شعار مربع لطائر الشمس"
-          },
-          "language": "ar",
-          "title": "قم بتنزيل بيانات اعتماد Sunbird",
-          "description": "قم بتنزيل بيانات الاعتماد باستخدام رقم السياسة الخاص بك"
-        },
-        {
-          "name": "सनबर्ड बीमा",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "सनबर्ड का एक चौकोर लोगो"
-          },
-          "language": "hi",
-          "title": "सनबर्ड क्रेडेंशियल्स डाउनलोड करेंं",
-          "description": "अपने पॉलिसी नंबर के साथ क्रेडेंशियल डाउनलोड करें"
-        },
-        {
-          "name": "ಸನ್ ಬರ್ಡ್",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "ಸನ್ ಬರ್ಡ್ ನ ಚೌಕಾಕಾರದ ಲೋಗೋ"
-          },
-          "language": "kn",
-          "title": "ಸನ್ಬರ್ಡ್ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
-          "description": "ನಿಮ್ಮ ಪಾಲಿಸಿ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ"
-        },
-        {
-          "name": "சன்பேர்ட் காப்பீடு",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "சூரிய பறவையின் சதுர சின்னம்"
-          },
-          "language": "ta",
-          "title": "Sunbird சான்றுகளைப் பதிவிறக்கவும்",
-          "description": "உங்கள் பாலிசி எண்ணுடன் நற்சான்றிதழ்களைப் பதிவிறக்கவும்"
-        },
-        {
-          "name": "Seguro sa Sunbird",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "isang parisukat na logo ng isang Sunbird"
-          },
-          "language": "fil",
-          "title": "I-download ang Mga Kredensyal ng Sunbird",
-          "description": "Mag-download ng mga kredensyal gamit ang iyong Numero ng Patakaran"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
-      "client_alias": "esignet-sunbird-partner",
-      "wellknown_endpoint": "http://config-server.config-server1/config/mimoto/default/develop/mimoto-sunbird-insurance-wellknown.json",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected-Fallback",
-      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OnlineSharing",
-      "enabled": "true"
-    },
-    {
-          "credential_issuer": "Mock-Fallback",
-          "display": [
-            {
-              "name": "Mock Identity",
-              "logo": {
-                "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-                "alt_text": "mosip-logo"
-              },
-              "title": "Mock Identity - Fallback",
-              "description": "Download Mock Identity Credential",
-              "language": "en"
-            }
-          ],
-          "protocol": "OpenId4VCI",
-          "client_id": "${mimoto.oidc.mock.partner.clientid}",
-          "client_alias": "mpartner-mock-testing",
-          "wellknown_endpoint": "http://config-server.config-server1/config/mimoto/default/develop/mimoto-mock-identity-wellknown.json",
-          "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-          "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-          "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock-Fallback",
-          "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-          "qr_code_type": "OnlineSharing",
-          "enabled": "true"
-        },
-    {
-      "credential_issuer": "mockFarmer",
+      "issuer_id": "mockFarmer",
       "display": [
         {
           "name": "Farmers Credentials Local",
@@ -344,16 +248,17 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-mock-testing",
-      "wellknown_endpoint": "https://nearly-notable-longhorn.ngrok-free.app/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mockFarmer",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
+      "credential_issuer": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     },
     {
-      "credential_issuer": "mockFarmer1",
+      "issuer_id": "mockFarmer1",
       "display": [
         {
           "name": "Farmers Credentials",
@@ -375,6 +280,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mockFarmer1",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer": "https://${mosip.injicertify.cp1.host}",
       "enabled": "true"
     }
   ]
