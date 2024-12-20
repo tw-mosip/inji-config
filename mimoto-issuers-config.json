@@ -231,7 +231,8 @@
       "token_endpoint": "https://${mosip.injiweb.cp1.host}/v1/mimoto/get-token/CAR",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "https://${mosip.injicertify.cp1.host}",
+      "credential_issuer": "CAR",
+      "credential_issuer_host": "https://${mosip.injicertify.cp1.host}",
       "enabled": "true"
     },
     {
@@ -257,7 +258,8 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mockFarmer",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
-      "credential_issuer": "https://${mosip.injicertify.mock.host}",
+      "credential_issuer": "mockFarmer",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     },
     {
@@ -283,7 +285,8 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mockFarmer1",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "https://${mosip.injicertify.cp1.host}",
+      "credential_issuer": "mockFarmer1",
+      "credential_issuer_host": "https://${mosip.injicertify.cp1.host}",
       "enabled": "true"
     }
   ]
