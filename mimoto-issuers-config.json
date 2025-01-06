@@ -306,7 +306,7 @@
       "credential_issuer": "Mock-Fallback",
       "display": [
         {
-          "name": "Mock Identity",
+          "name": "Mock Identity Fallback",
           "logo": {
             "url": "https://raw.githubusercontent.com/mosip/inji-config/qa1/mosipid-logo.png",
             "alt_text": "mosip-logo"
