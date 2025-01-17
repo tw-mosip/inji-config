@@ -1,7 +1,7 @@
 {
   "issuers": [
     {
-      "issuer_id": "MosipOtp",
+      "credential_issuer": "MosipOtp",
       "display": [
         {
           "name": "MOSIP National ID",
@@ -68,7 +68,7 @@
       "enabled": "${mosip.otp.download.enable}"
     },
     {
-      "issuer_id": "Mosip",
+      "credential_issuer": "Mosip",
       "display": [
         {
           "name": "National Identity Department",
@@ -140,12 +140,10 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "Mosip",
-      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "enabled": "true"
     },
     {
-      "issuer_id": "StayProtected",
+      "credential_issuer": "StayProtected",
       "display": [
         {
           "name": "StayProtected Insurance",
@@ -167,12 +165,10 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "StayProtected",
-      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "enabled": "true"
     },
     {
-      "issuer_id": "Mock",
+      "credential_issuer": "Mock",
       "display": [
         {
           "name": "Mock Identity",
@@ -194,12 +190,10 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "Mock",
-      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     },
     {
-      "issuer_id": "MockMdl",
+      "credential_issuer": "MockMdl",
       "display": [
         {
           "name": "Mock Mobile Driving License",
@@ -231,12 +225,10 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockMdl",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "MockMdl",
-      "credential_issuer_host": "https://${mosip.injicertify.mdl.host}",
       "enabled": "true"
     },
     {
-      "issuer_id": "StayProtected-Fallback",
+      "credential_issuer": "StayProtected-Fallback",
       "display": [
         {
           "name": "Sunbird Insurance",
@@ -308,12 +300,10 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected-Fallback",
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "StayProtected-Fallback",
-      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "enabled": "true"
    },
     {
-      "issuer_id": "Mock-Fallback",
+      "credential_issuer": "Mock-Fallback",
       "display": [
         {
           "name": "Mock Identity Fallback",
@@ -335,12 +325,10 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock-Fallback",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "Mock-Fallback",
-      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     },
     {
-      "issuer_id": "Mosip-Fallback",
+      "credential_issuer": "Mosip-Fallback",
       "display": [
         {
           "name": "National Identity Department",
@@ -412,12 +400,10 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip-Fallback",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "Mosip-Fallback",
-      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "enabled": "true"
     },
     {
-      "issuer_id": "Land",
+      "credential_issuer": "Land",
       "display": [
         {
           "name": "Land Registry",
@@ -439,8 +425,6 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Land",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "Land",
-      "credential_issuer_host": "https://${mosip.injicertify.landregistry.host}",
       "enabled": "true"
     }
   ]
