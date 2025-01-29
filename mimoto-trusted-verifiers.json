@@ -1,12 +1,12 @@
 {
   "verifiers": [
     {
-      "client_id": "https://${mosip.injiverify.host}",
+      "client_id": "https://${mosip.injiverify.host}1",
       "redirect_uris": [
         "https://${mosip.injiverify.host}/redirect"
       ],
       "response_uris": [
-        "https://248b-49-207-202-34.ngrok-free.app/verifier/vp-response"
+        "https://c824-49-207-202-34.ngrok-free.app/verifier/vp-response"
       ]
     }
   ]
