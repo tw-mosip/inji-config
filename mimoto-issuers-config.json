@@ -65,7 +65,7 @@
         }
       ],
       "protocol": "OTP",
-      "credential_issuer_host":"",
+      "credential_issuer_host":"MosipOtp",
       "enabled": "${mosip.otp.download.enable}"
     },
     {
