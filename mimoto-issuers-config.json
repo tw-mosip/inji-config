@@ -1,6 +1,7 @@
 {
   "issuers": [
     {
+      "issuer_id": "MosipOtp",
       "credential_issuer": "MosipOtp",
       "display": [
         {
@@ -250,7 +251,7 @@
     {
       "issuer_id":"StayProtectedCollab",
       "credential_issuer": "StayProtectedCollab",
-      "credential_issuer_host": "https: //injicertify-insurance.collab.mosip.net",
+      "credential_issuer_host": "https://injicertify-insurance.collab.mosip.net",
       "display": [
         {
           "name": "StayProtected Insurance - Collab",
