@@ -1,0 +1,46 @@
+{
+  "nameSpaces": {
+    "org.iso.18013.5.1": [
+      {
+        "digestID": 0,
+        "elementIdentifier": "full_name",
+        "elementValue": "${fullName}"
+      },
+      {
+        "digestID": 1,
+        "elementIdentifier": "gender",
+        "elementValue": "${gender}"
+      },
+      {
+        "digestID": 2,
+        "elementIdentifier": "birth_date",
+        "elementValue": "${dateOfBirth}"
+      },
+      {
+        "digestID": 5,
+        "elementIdentifier": "state",
+        "elementValue": "${state}"
+      },
+      {
+        "digestID": 6,
+        "elementIdentifier": "farmer_id",
+        "elementValue": "${farmerID}"
+      },
+      {
+        "digestID": 7,
+        "elementIdentifier": "land_ownership_type",
+        "elementValue": "${landOwnershipType}"
+      },
+      {
+        "digestID": 8,
+        "elementIdentifier": "primary_crop_type",
+        "elementValue": "${primaryCropType}"
+      }
+    ]
+  },
+  "docType": "${_docType}",
+  "validityInfo": {
+    "validFrom": "${validFrom}",
+    "validUntil": "${validUntil}"
+  }
+}

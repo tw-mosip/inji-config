@@ -1,0 +1,99 @@
+{
+    "vcTemplate": "ew0KICAgICAgICAiQGNvbnRleHQiOiBbDQogICAgICAgICAgICAiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLA0KICAgICAgICAgICAgImh0dHBzOi8vcGl5dXNoNzAzNC5naXRodWIuaW8vbXktZmlsZXMvZmFybWVyLmpzb24iDQogICAgICAgIF0sDQogICAgICAgICJpc3N1ZXIiOiAiJHtfaXNzdWVyfSIsDQogICAgICAgICJ0eXBlIjogWw0KICAgICAgICAgICAgIlZlcmlmaWFibGVDcmVkZW50aWFsIiwNCiAgICAgICAgICAgICJGYXJtZXJDcmVkZW50aWFsIg0KICAgICAgICBdLA0KICAgICAgICAiaXNzdWFuY2VEYXRlIjogIiR7dmFsaWRGcm9tfSIsDQogICAgICAgICJleHBpcmF0aW9uRGF0ZSI6ICIke3ZhbGlkVW50aWx9IiwNCiAgICAgICAgImNyZWRlbnRpYWxTdWJqZWN0Ijogew0KICAgICAgICAgICAgImlkIjogIiR7X2hvbGRlcklkfSIsDQogICAgICAgICAgICAiZnVsbE5hbWUiOiAiJHtmdWxsTmFtZX0iLA0KICAgICAgICAgICAgIm1vYmlsZU51bWJlciI6ICIke21vYmlsZU51bWJlcn0iLA0KICAgICAgICAgICAgImRhdGVPZkJpcnRoIjogIiR7ZGF0ZU9mQmlydGh9IiwNCiAgICAgICAgICAgICJnZW5kZXIiOiAiJHtnZW5kZXJ9IiwNCiAgICAgICAgICAgICJzdGF0ZSI6ICIke3N0YXRlfSIsDQogICAgICAgICAgICAiZGlzdHJpY3QiOiAiJHtkaXN0cmljdH0iLA0KICAgICAgICAgICAgInZpbGxhZ2VPclRvd24iOiAiJHt2aWxsYWdlT3JUb3dufSIsDQogICAgICAgICAgICAicG9zdGFsQ29kZSI6ICIke3Bvc3RhbENvZGV9IiwNCiAgICAgICAgICAgICJsYW5kQXJlYSI6ICIke2xhbmRBcmVhfSIsDQogICAgICAgICAgICAibGFuZE93bmVyc2hpcFR5cGUiOiAiJHtsYW5kT3duZXJzaGlwVHlwZX0iLA0KICAgICAgICAgICAgInByaW1hcnlDcm9wVHlwZSI6ICIke3ByaW1hcnlDcm9wVHlwZX0iLA0KICAgICAgICAgICAgInNlY29uZGFyeUNyb3BUeXBlIjogIiR7c2Vjb25kYXJ5Q3JvcFR5cGV9IiwNCiAgICAgICAgICAgICJmYWNlIjogIiR7ZmFjZX0iLA0KICAgICAgICAgICAgImZhcm1lcklEIjogIiR7ZmFybWVySUR9IiwNCiAgICAgICAgICAgICJpZGVudGl0eVFSQ29kZSI6ICRjbGFpbV8xNjlfdmFsdWVzWzBdLA0KICAgICAgICAgICAgImZhY2VRUkNvZGUiOiAkY2xhaW1fMTY5X3ZhbHVlc1sxXQ0KICAgICAgICB9DQogICAgfQ==",
+    "credentialConfigKeyId": "FarmerCredential_QR",
+    "contextURLs": [
+        "https://piyush7034.github.io/my-files/farmer.json",
+        "https://www.w3.org/2018/credentials/v1"
+    ],
+    "credentialTypes": [
+        "FarmerCredential",
+        "VerifiableCredential"
+    ],
+    "credentialFormat": "ldp_vc",
+    "didUrl": "did:web:piyush7034.github.io:DID:piyush-mac",
+    "keyManagerAppId": "CERTIFY_VC_SIGN_ED25519",
+    "keyManagerRefId": "ED25519_SIGN",
+    "signatureAlgo": "EdDSA",
+    "signatureCryptoSuite": "Ed25519Signature2020",
+    "metaDataDisplay": [
+        {
+            "logo": {
+                "url": "https://example.com/logo.png",
+                "alt_text": "Farmer Logo"
+            },
+            "name": "Farmer Credential",
+            "locale": "en",
+            "text_color": "#FFFFFF",
+            "background_color": "#12107c",
+            "background_image": {
+                "uri": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png"
+            }
+        }
+    ],
+    "displayOrder": [
+        "fullName",
+        "mobileNumber",
+        "dateOfBirth",
+        "gender",
+        "state",
+        "district",
+        "villageOrTown",
+        "postalCode",
+        "landArea",
+        "landOwnershipType",
+        "primaryCropType",
+        "secondaryCropType",
+        "farmerID"
+    ],
+    "scope": "sample_vc_ldp",
+    "credentialSubjectDefinition": {
+        "phone": {
+            "display": [
+                {
+                    "name": "Phone Number",
+                    "locale": "en"
+                }
+            ]
+        },
+        "gender": {
+            "display": [
+                {
+                    "name": "Gender",
+                    "locale": "en"
+                }
+            ]
+        },
+        "fullName": {
+            "display": [
+                {
+                    "name": "Full Name",
+                    "locale": "en"
+                }
+            ]
+        },
+        "dateOfBirth": {
+            "display": [
+                {
+                    "name": "Date of Birth",
+                    "locale": "en"
+                }
+            ]
+        }
+    },
+    "qrSettings": [
+        {
+            "Full Name": "${fullName}",
+            "Phone Number": "${mobileNumber}",
+            "Date Of Birth": "${dateOfBirth}"
+        },
+        {
+            "Face": {
+                "Data": "${face}",
+                "Data format": "Image",
+                "Data sub format": "JEPG"
+            },
+            "Full Name": "${fullName}",
+            "Date Of Birth": "${dateOfBirth}"
+        }
+    ]
+}

@@ -1,0 +1,285 @@
+{
+    "credentialConfigKeyId": "TruckPassCredential",
+    "vcTemplate": "ewogICAgIkBjb250ZXh0IjogWwogICAgICAgICJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsCiAgICAgICAgImh0dHBzOi8vaW5qaS5naXRodWIuaW8vaW5qaS1jb25maWcvY29udGV4dHMvdHJ1Y2twYXNzLWNvbnRleHQuanNvbiIsCiAgICAgICAgImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2VkMjU1MTktMjAyMC92MSIKICAgIF0sCiAgICAiaXNzdWVyIjogIiR7X2lzc3Vlcn0iLAogICAgInR5cGUiOiBbCiAgICAgICAgIlZlcmlmaWFibGVDcmVkZW50aWFsIiwKICAgICAgICAiVHJ1Y2tQYXNzQ3JlZGVudGlhbCIKICAgIF0sCiAgICAiaXNzdWFuY2VEYXRlIjogIiR7dmFsaWRGcm9tfSIsCiAgICAiZXhwaXJhdGlvbkRhdGUiOiAiJHt2YWxpZFVudGlsfSIsCiAgICAiY3JlZGVudGlhbFN1YmplY3QiOiB7CiAgICAgICAgImlkIjogIiR7X2hvbGRlcklkfSIsCiAgICAgICAgIkZ1bGxOYW1lIjogIiR7ZHJpdmVyX25hbWV9IiwKICAgICAgICAiVUlOIjogIiR7ZHJpdmVyX3Vpbn0iLAogICAgICAgICJQaG9uZU51bWJlciI6ICIke3Bob25lX251bWJlcn0iLAogICAgICAgICJHZW5kZXIiOiAiJHtnZW5kZXJ9IiwKICAgICAgICAiRW1haWxJRCI6ICIke2VtYWlsX2lkfSIsCiAgICAgICAgIkNpdHkiOiAiJHtjaXR5fSIsCiAgICAgICAgIkZhY2VJbWFnZSI6ICIke2ZhY2VfaW1hZ2VfcGF0aH0iLAogICAgICAgICJEcml2ZXJzTGljZW5zZU51bWJlciI6ICIke2RyaXZlcl9saWNlbnNlX251bWJlcn0iLAogICAgICAgICJQYXNzcG9ydE51bWJlciI6ICIke3Bhc3Nwb3J0X251bWJlcn0iLAogICAgICAgICJJbnZvaWNlTnVtYmVyIjogIiR7aW52b2ljZV9udW1iZXJ9IiwKICAgICAgICAiQ01SV2F5YmlsbENvbnNpZ25tZW50T3JkZXIiOiAiJHtjbXJfd2F5YmlsbH0iLAogICAgICAgICJDdXN0b21zRG9jdW1lbnRhdGlvbiI6ICIke2N1c3RvbXNfZG9jdW1lbnRhdGlvbn0iLAogICAgICAgICJXZWlnaHRDZXJ0aWZpY2F0ZSI6ICIke3dlaWdodF9jZXJ0aWZpY2F0ZV9wYXRofSIsCiAgICAgICAgIlZlaGljbGVUeXBlIjogIiR7dmVoaWNsZV90eXBlfSIsCiAgICAgICAgIkF4bGVTaXplIjogIiR7YXhsZV9zaXplfSIsCiAgICAgICAgIlZlaGljbGVSZWdpc3RyYXRpb25Eb2N1bWVudHMiOiAiJHt2ZWhpY2xlX3JlZ2lzdHJhdGlvbl9kb2NzX3BhdGh9IiwKICAgICAgICAiVHJ1Y2tMaWNlbnNlUGxhdGUiOiAiJHt0cnVja19saWNlbnNlX3BsYXRlfSIsCiAgICAgICAgIkV4cG9ydGVyTmFtZSI6ICIke2V4cG9ydGVyX25hbWV9IiwKICAgICAgICAiSW1wb3J0ZXJOYW1lIjogIiR7aW1wb3J0ZXJfbmFtZX0iLAogICAgICAgICJFbnRyeUV4aXRQb2ludCI6ICIke2VudHJ5X2V4aXRfcG9pbnR9IiwKICAgICAgICAiQ291bnRyeU9mT3JpZ2luIjogIiR7Y291bnRyeV9vcmlnaW59IiwKICAgICAgICAiQ291bnRyeU9mRGVzdGluYXRpb24iOiAiJHtjb3VudHJ5X2Rlc3RpbmF0aW9ufSIsCiAgICAgICAgIkRhdGVPZkRlcGFydHVyZSI6ICIke2RhdGVfZGVwYXJ0dXJlfSIsCiAgICAgICAgIkRhdGVPZlJldHVybiI6ICIke2RhdGVfcmV0dXJufSIsCiAgICAgICAgIklzc3VlZE9uIjogIiR7dmFsaWRGcm9tfSIsCiAgICAgICAgIkV4cGlyZXNPbiI6ICIke3ZhbGlkVW50aWx9IgogICAgfQp9",
+    "keyManagerAppId": "CERTIFY_VC_SIGN_ED25519",
+    "keyManagerRefId": "ED25519_SIGN",
+    "signatureAlgo": "EdDSA",
+    "signatureCryptoSuite": "Ed25519Signature2020",
+    "contextURLs": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://inji.github.io/inji-config/contexts/truckpass-context.json"
+    ],
+    "credentialTypes": [
+      "VerifiableCredential",
+      "TruckPassCredential"
+    ],
+    "credentialFormat": "ldp_vc",
+    "didUrl": "did:web:inji.github.io:inji-config:dev-int-inji:truckpass",
+    "metaDataDisplay": [{
+      "name": "TruckPass Credential",
+      "locale": "en",
+      "logo": {
+        "url": "https://inji.github.io/inji-config/logos/truckpass.png",
+        "alt_text": "University Logo"
+      },
+      "background_color": "#12107c",
+      "text_color": "#FFFFFF"
+    }],
+    "displayOrder": [
+        "FullName",
+        "UIN",
+        "PhoneNumber",
+        "Gender",
+        "EmailID",
+        "City",
+        "FaceImage",
+        "DriversLicenseNumber",
+        "PassportNumber",
+        "InvoiceNumber",
+        "CMRWaybillConsignmentOrder",
+        "CustomsDocumentation",
+        "WeightCertificate",
+        "TrackingID",
+        "VehicleNumber",
+        "VehicleType",
+        "AxleSize",
+        "VehicleRegistrationDocuments",
+        "TruckLicensePlate",
+        "ExporterName",
+        "ImporterName",
+        "EntryExitPoint",
+        "CountryOfOrigin",
+        "CountryOfDestination",
+        "DateOfDeparture",
+        "DateOfReturn",
+        "IssuedOn",
+        "ExpiresOn"
+    ],
+    "scope": "mock_identity_vc_ldp",
+    "credentialSubjectDefinition": {
+      "FullName": {
+          "display": [
+              {
+                  "name": "Full Name", 
+                  "locale": "en"
+              }
+          ]
+       },
+        "UIN": {
+            "display": [
+                {
+                    "name": "UIN", 
+                    "locale": "en"
+                }
+            ]
+         },
+         "PhoneNumber": {
+            "display": [
+                {
+                    "name": "Phone Number", 
+                    "locale": "en"
+                }
+            ]
+         },
+         "Gender": {
+            "display": [
+                {
+                    "name": "Gender", 
+                    "locale": "en"
+                }
+            ]
+         },
+         "EmailID": {
+            "display": [
+                {
+                    "name": "Email ID", 
+                    "locale": "en"
+                }
+            ]
+         },
+        "City": {
+            "display": [
+                {
+                    "name": "City", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "DriversLicenseNumber": {
+            "display": [
+                {
+                    "name": "Driver's License Number", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "PassportNumber": {
+            "display": [
+                {
+                    "name": "Passport Number", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "FaceImage": {
+            "display": [
+                {
+                    "name": "Face Image", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "InvoiceNumber": {
+            "display": [
+                {
+                    "name": "Invoice Number", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "CMRWaybillConsignmentOrder": {
+            "display": [
+                {
+                    "name": "CMR Waybill Consignment Order", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "CustomsDocumentation": {
+            "display": [
+                {
+                    "name": "Customs Documentation", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "WeightCertificate": {
+            "display": [
+                {
+                    "name": "Weight Certificate", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "TrackingID": {
+            "display": [
+                {
+                    "name": "Tracking ID", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "VehicleNumber": {
+            "display": [
+                {
+                    "name": "Vehicle Number", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "VehicleType": {
+            "display": [
+                {
+                    "name": "Vehicle Type", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "AxleSize": {
+            "display": [
+                {
+                    "name": "Axle Size", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "VehicleRegistrationDocuments": {
+            "display": [
+                {
+                    "name": "Vehicle Registration Documents", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "TruckLicensePlate": {
+            "display": [
+                {
+                    "name": "Truck License Plate", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "ExporterName": {
+            "display": [
+                {
+                    "name": "Exporter Name", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "ImporterName": {
+            "display": [
+                {
+                    "name": "Importer Name", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "EntryExitPoint": {
+            "display": [
+                {
+                    "name": "Entry/Exit Point", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "CountryOfOrigin": {
+            "display": [
+                {
+                    "name": "Country Of Origin", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "CountryOfDestination": {
+            "display": [
+                {
+                    "name": "Country Of Destination", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "DateOfDeparture": {
+            "display": [
+                {
+                    "name": "Date Of Departure", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "DateOfReturn": {
+            "display": [
+                {
+                    "name": "Date Of Return", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "IssuedOn": {
+            "display": [
+                {
+                    "name": "Issued On", 
+                    "locale": "en"
+                }
+            ]
+        },
+        "ExpiresOn": {
+            "display": [
+                {
+                    "name": "Expires On", 
+                    "locale": "en"
+                }
+            ]
+        }
+    }
+  }

@@ -1,0 +1,321 @@
+{
+    "credentialConfigKeyId": "LandStatementCredential_VCDM2.0",
+    "vcTemplate": "ewogICAgIkBjb250ZXh0IjogWwogICAgICAgICJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLAogICAgICAgICJodHRwczovL2luamkuZ2l0aHViLmlvL2luamktY29uZmlnL2NvbnRleHRzL2xhbmRyZWdpc3RyeS1zdGF0ZW1lbnQtY29udGV4dC5qc29uIiwKICAgICAgICAiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvZWQyNTUxOS0yMDIwL3YxIgogICAgXSwKICAgICJpc3N1ZXIiOiAiJHtfaXNzdWVyfSIsCiAgICAidHlwZSI6IFsKICAgICAgICAiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLAogICAgICAgICJMYW5kU3RhdGVtZW50Q3JlZGVudGlhbCIKICAgIF0sCiAgICAidmFsaWRGcm9tIjogIiR7dmFsaWRGcm9tfSIsCiAgICAidmFsaWRVbnRpbCI6ICIke3ZhbGlkVW50aWx9IiwKICAgICJjcmVkZW50aWFsU3ViamVjdCI6IHsKICAgICAgICAiaWQiOiAiJHtfaG9sZGVySWR9IiwKICAgICAgICAiTnVtYmVyT2ZDQVIiOiAiJHtjYXJfcmVnaXN0cmF0aW9uX251bWJlcn0iLAogICAgICAgICJSZWdpc3RyYXRpb25EYXRlIjogIiR7cmVnaXN0cmF0aW9uX2RhdGV9IiwKICAgICAgICAiTGFzdE1vZGlmaWNhdGlvbkRhdGUiOiAiJHtkYXRlX29mX2xhc3RfYW1lbmRtZW50fSIsCiAgICAgICAgIlJ1cmFsUHJvcGVydHlBcmVhIjogJHtydXJhbF9wcm9wZXJ0eV9hcmVhfSwKICAgICAgICAiTGF0aXR1ZGUiOiAiJHtsYXRpdHVkZX0iLAogICAgICAgICJMb25naXR1ZGUiOiAiJHtsb25naXR1ZGV9IiwKICAgICAgICAiTXVuaWNpcGFsaXR5IjogIiR7bXVuaWNpcGFsaXR5fSIsCiAgICAgICAgIkV4dGVybmFsQ29uZGl0aW9uIjogIiR7ZXh0ZXJuYWxfY29uZGl0aW9ufSIsCiAgICAgICAgIlJlZ2lzdHJhdGlvblN0YXR1cyI6ICIke3JlZ2lzdHJhdGlvbl9zdGF0dXN9IiwKICAgICAgICAiUFJBQ29uZGl0aW9uIjogIiR7cHJhX2NvbmRpdGlvbn0iLAogICAgICAgICJHcm91bmRDb3ZlcmFnZSI6ICIke2xhbmRfY292ZXJ9IiwKICAgICAgICAiTmF0aXZlVmVnZXRhdGlvblJlbW5hbnRBcmVhIjogJHtuYXRpdmVfdmVnZXRhdGlvbl9yZW1uYW50X2FyZWF9LAogICAgICAgICJDb25zb2xpZGF0ZWRSdXJhbEFyZWEiOiAke2NvbnNvbGlkYXRlZF9ydXJhbF9hcmVhfSwKICAgICAgICAiQWRtaW5pc3RyYXRpdmVFYXNlbWVudEFyZWEiOiAke2FkbWluaXN0cmF0aXZlX2Vhc2VtZW50X2FyZWF9LAogICAgICAgICJMZWdhbFJlc2VydmVMb2NhdGlvbiI6ICIke2xvY2F0aW9uX29mX2xlZ2FsX3Jlc2VydmV9IiwKICAgICAgICAiUmVnaXN0ZXJlZExlZ2FsUmVzZXJ2ZUFyZWEiOiAke3JlZ2lzdGVyZWRfbGVnYWxfcmVzZXJ2ZV9hcmVhfSwKICAgICAgICAiR2VvcmVmZXJlbmNlZExlZ2FsUmVzZXJ2ZUFyZWEiOiAke2dlb3JlZmVyZW5jZWRfbGVnYWxfcmVzZXJ2ZV9hcmVhfSwKICAgICAgICAiQXBwcm92ZWRVbnJlZ2lzdGVyZWRMZWdhbFJlc2VydmVBcmVhIjogJHthcHByb3ZlZF9sZWdhbF9yZXNlcnZlX2FyZWFfbm90X3JlZ2lzdGVyZWR9LAogICAgICAgICJQcm9wb3NlZExlZ2FsUmVzZXJ2ZUFyZWEiOiAke3Byb3Bvc2VkX2xlZ2FsX3Jlc2VydmVfYXJlYX0sCiAgICAgICAgIlRvdGFsRGVjbGFyZWRMZWdhbFJlc2VydmUiOiAke3RvdGFsX2xlZ2FsX3Jlc2VydmVfZGVjbGFyZWR9LAogICAgICAgICJQZXJtYW5lbnRQcmVzZXJ2YXRpb25BcmVhcyI6ICR7cGVybWFuZW50X3ByZXNlcnZhdGlvbl9hcmVhc19hcHB9LAogICAgICAgICJBUFBJbkNvbnNvbGlkYXRlZFJ1cmFsQXJlYSI6ICR7YXBwX2luX2NvbnNvbGlkYXRlZF9ydXJhbF9hcmVhfSwKICAgICAgICAiQVBQSW5OYXRpdmVWZWdldGF0aW9uUmVtbmFudEFyZWEiOiAke2FwcF9pbl9uYXRpdmVfdmVnZXRhdGlvbl9yZW1uYW50X2FyZWF9LAogICAgICAgICJSZXN0cmljdGVkVXNlQXJlYXMiOiAke3Jlc3RyaWN0ZWRfdXNlX2FyZWFzfSwKICAgICAgICAiTGVnYWxSZXNlcnZlRGVmaWNpdE9yRXhjZXNzIjogJHtsZWdhbF9yZXNlcnZlX2RlZmljaXRfZXhjZXNzfSwKICAgICAgICAiTGVnYWxSZXNlcnZlQXJlYVRvQmVSZXN0b3JlZCI6ICR7bGVnYWxfcmVzZXJ2ZV9hcmVhX3RvX3JlY29tcG9zZX0sCiAgICAgICAgIlBlcm1hbmVudFByZXNlcnZhdGlvbkFyZWFzVG9CZVJlc3RvcmVkIjogJHtwZXJtYW5lbnRfcHJlc2VydmF0aW9uX2FyZWFzX3RvX3JlY29tcG9zZX0sCiAgICAgICAgIlJlc3RyaWN0ZWRVc2VBcmVhVG9CZVJlc3RvcmVkIjogJHtyZXN0cmljdGVkX3VzZV9hcmVhX3RvX3JlY29tcG9zZX0sCiAgICAgICAgIkVtYmFyZ2dlZEFyZWFEZXNjcmlwdGlvbiI6ICIke2VtYmFyZ29lZF9hcmVhX2Rlc2NyaXB0aW9ufSIsCiAgICAgICAgIkVtYmFyZ2dlZEFyZWFQcm9jZXNzaW5nRGF0ZSI6ICIke2VtYmFyZ29lZF9hcmVhX3Byb2Nlc3NpbmdfZGF0ZX0iLAogICAgICAgICJFbWJhcmdnZWRBcmVhT3ZlcmxhcCI6ICR7ZW1iYXJnb2VkX2FyZWFfb3ZlcmxhcH0sCiAgICAgICAgIkVtYmFyZ2dlZEFyZWFPdmVybGFwUGVyY2VudGFnZSI6ICR7ZW1iYXJnb2VkX2FyZWFfb3ZlcmxhcF9wZXJjZW50YWdlfSwKICAgICAgICAiQ29uc2VydmF0aW9uVW5pdERlc2NyaXB0aW9uIjogIiR7Y29uc2VydmF0aW9uX3VuaXRfZGVzY3JpcHRpb259IiwKICAgICAgICAiQ29uc2VydmF0aW9uVW5pdFByb2Nlc3NpbmdEYXRlIjogIiR7Y29uc2VydmF0aW9uX3VuaXRfcHJvY2Vzc2luZ19kYXRlfSIsCiAgICAgICAgIkNvbnNlcnZhdGlvblVuaXRPdmVybGFwQXJlYSI6ICR7Y29uc2VydmF0aW9uX3VuaXRfb3ZlcmxhcF9hcmVhfSwKICAgICAgICAiQ29uc2VydmF0aW9uVW5pdE92ZXJsYXBQZXJjZW50YWdlIjogJHtjb25zZXJ2YXRpb25fdW5pdF9vdmVybGFwX3BlcmNlbnRhZ2V9CiAgICB9Cn0=",
+    "keyManagerAppId": "CERTIFY_VC_SIGN_ED25519",
+    "keyManagerRefId": "ED25519_SIGN",
+    "signatureAlgo": "EdDSA",
+    "signatureCryptoSuite": "Ed25519Signature2020",
+  "contextURLs": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://inji.github.io/inji-config/contexts/landregistry-statement-context.json"
+  ],
+  "credentialTypes": [
+    "VerifiableCredential",
+    "LandStatementCredential"
+  ],
+  "credentialFormat": "ldp_vc",
+  "didUrl": "did:web:inji.github.io:inji-config:released:landregistry",
+  "metaDataDisplay": [{
+    "name": "STATEMENT OF THE STATUS OF INFORMATION DECLARED IN CAR",
+    "locale": "en",
+    "logo": {
+      "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
+      "alt_text": "CAR logo"
+    },
+	"background_image": { "uri": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png" },
+    "background_color": "#ebfaff",
+    "text_color": "#000000"
+  }],
+  "displayOrder": ["NumberOfCAR","RegistrationDate","LastModificationDate","RuralPropertyArea","Latitude","Longitude","Municipality","ExternalCondition","RegistrationStatus","PRACondition","GroundCoverage","NativeVegetationRemnantArea","ConsolidatedRuralArea","AdministrativeEasementArea","LegalReserveLocation","RegisteredLegalReserveArea","GeoreferencedLegalReserveArea","ApprovedUnregisteredLegalReserveArea","ProposedLegalReserveArea","TotalDeclaredLegalReserve","PermanentPreservationAreas","APPInConsolidatedRuralArea","APPInNativeVegetationRemnantArea","RestrictedUseAreas","LegalReserveDeficitOrExcess","LegalReserveAreaToBeRestored","PermanentPreservationAreasToBeRestored","RestrictedUseAreaToBeRestored","EmbarggedAreaDescription","EmbarggedAreaProcessingDate","EmbarggedAreaOverlap","EmbarggedAreaOverlapPercentage","ConservationUnitDescription","ConservationUnitProcessingDate","ConservationUnitOverlapArea","ConservationUnitOverlapPercentage"],
+  "scope": "land_statement_vc_ldp",
+  "credentialSubjectDefinition": {
+    "NumberOfCAR": {
+      "display": [
+        {
+          "name": "CAR Registration Number",
+          "locale": "en"
+        }
+      ]
+    },
+    "RegistrationDate": {
+      "display": [
+        {
+          "name": "Registration Date",
+          "locale": "en"
+        }
+      ]
+    },
+    "LastModificationDate": {
+      "display": [
+        {
+          "name": "Last Modification Date",
+          "locale": "en"
+        }
+      ]
+    },
+    "RuralPropertyArea": {
+      "display": [
+        {
+          "name": "Rural Property Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "Latitude": {
+      "display": [
+        {
+          "name": "Latitude",
+          "locale": "en"
+        }
+      ]
+    },
+    "Longitude": {
+      "display": [
+        {
+          "name": "Longitude",
+          "locale": "en"
+        }
+      ]
+    },
+    "Municipality": {
+      "display": [
+        {
+          "name": "Municipality",
+          "locale": "en"
+        }
+      ]
+    },
+    "ExternalCondition": {
+      "display": [
+        {
+          "name": "External Condition",
+          "locale": "en"
+        }
+      ]
+    },
+    "RegistrationStatus": {
+      "display": [
+        {
+          "name": "Registration Status",
+          "locale": "en"
+        }
+      ]
+    },
+    "PRACondition": {
+      "display": [
+        {
+          "name": "PRA Condition",
+          "locale": "en"
+        }
+      ]
+    },
+    "GroundCoverage": {
+      "display": [
+        {
+          "name": "Ground Coverage",
+          "locale": "en"
+        }
+      ]
+    },
+    "NativeVegetationRemnantArea": {
+      "display": [
+        {
+          "name": "Native Vegetation Remnant Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "ConsolidatedRuralArea": {
+      "display": [
+        {
+          "name": "Consolidated Rural Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "AdministrativeEasementArea": {
+      "display": [
+        {
+          "name": "Administrative Easement Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "LegalReserveLocation": {
+      "display": [
+        {
+          "name": "Legal Reserve Location",
+          "locale": "en"
+        }
+      ]
+    },
+    "RegisteredLegalReserveArea": {
+      "display": [
+        {
+          "name": "Registered Legal Reserve Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "GeoreferencedLegalReserveArea": {
+      "display": [
+        {
+          "name": "Georeferenced Legal Reserve Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "ApprovedUnregisteredLegalReserveArea": {
+      "display": [
+        {
+          "name": "Approved Unregistered Legal Reserve Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "ProposedLegalReserveArea": {
+      "display": [
+        {
+          "name": "Proposed Legal Reserve Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "TotalDeclaredLegalReserve": {
+      "display": [
+        {
+          "name": "Total Declared Legal Reserve",
+          "locale": "en"
+        }
+      ]
+    },
+    "PermanentPreservationAreas": {
+      "display": [
+        {
+          "name": "Permanent Preservation Areas (APP)",
+          "locale": "en"
+        }
+      ]
+    },
+    "APPInConsolidatedRuralArea": {
+      "display": [
+        {
+          "name": "APP in Consolidated Rural Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "APPInNativeVegetationRemnantArea": {
+      "display": [
+        {
+          "name": "APP in Native Vegetation Remnant Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "RestrictedUseAreas": {
+      "display": [
+        {
+          "name": "Restricted Use Areas",
+          "locale": "en"
+        }
+      ]
+    },
+    "LegalReserveDeficitOrExcess": {
+      "display": [
+        {
+          "name": "Legal Reserve Deficit or Excess",
+          "locale": "en"
+        }
+      ]
+    },
+    "LegalReserveAreaToBeRestored": {
+      "display": [
+        {
+          "name": "Legal Reserve Area to Be Restored",
+          "locale": "en"
+        }
+      ]
+    },
+    "PermanentPreservationAreasToBeRestored": {
+      "display": [
+        {
+          "name": "Permanent Preservation Areas to Be Restored",
+          "locale": "en"
+        }
+      ]
+    },
+    "RestrictedUseAreaToBeRestored": {
+      "display": [
+        {
+          "name": "Restricted Use Area to Be Restored",
+          "locale": "en"
+        }
+      ]
+    },
+    "EmbarggedAreaDescription": {
+      "display": [
+        {
+          "name": "Embargoed Area Description",
+          "locale": "en"
+        }
+      ]
+    },
+    "EmbarggedAreaProcessingDate": {
+      "display": [
+        {
+          "name": "Embargoed Area Processing Date",
+          "locale": "en"
+        }
+      ]
+    },
+    "EmbarggedAreaOverlap": {
+      "display": [
+        {
+          "name": "Embargoed Area Overlap",
+          "locale": "en"
+        }
+      ]
+    },
+    "EmbarggedAreaOverlapPercentage": {
+      "display": [
+        {
+          "name": "Embargoed Area Overlap Percentage",
+          "locale": "en"
+        }
+      ]
+    },
+    "ConservationUnitDescription": {
+      "display": [
+        {
+          "name": "Conservation Unit Description",
+          "locale": "en"
+        }
+      ]
+    },
+    "ConservationUnitProcessingDate": {
+      "display": [
+        {
+          "name": "Conservation Unit Processing Date",
+          "locale": "en"
+        }
+      ]
+    },
+    "ConservationUnitOverlapArea": {
+      "display": [
+        {
+          "name": "Conservation Unit Overlap Area",
+          "locale": "en"
+        }
+      ]
+    },
+    "ConservationUnitOverlapPercentage": {
+      "display": [
+        {
+          "name": "Conservation Unit Overlap Percentage",
+          "locale": "en"
+        }
+      ]
+    }
+  }
+}

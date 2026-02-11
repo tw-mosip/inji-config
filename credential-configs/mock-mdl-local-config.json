@@ -1,0 +1,74 @@
+{
+    "credentialConfigKeyId": "DrivingLicenseCredential",
+    "vcTemplate": "ewogICJuYW1lU3BhY2VzIjogewogICAgIm9yZy5pc28uMTgwMTMuNS4xIjogWwogICAgICB7CiAgICAgICAgImRpZ2VzdElEIjogMCwKICAgICAgICAiZWxlbWVudElkZW50aWZpZXIiOiAiZnVsbF9uYW1lIiwKICAgICAgICAiZWxlbWVudFZhbHVlIjogIiR7ZnVsbE5hbWV9IgogICAgICB9LAogICAgICB7CiAgICAgICAgImRpZ2VzdElEIjogMSwKICAgICAgICAiZWxlbWVudElkZW50aWZpZXIiOiAiZ2VuZGVyIiwKICAgICAgICAiZWxlbWVudFZhbHVlIjogIiR7Z2VuZGVyfSIKICAgICAgfSwKICAgICAgewogICAgICAgICJkaWdlc3RJRCI6IDIsCiAgICAgICAgImVsZW1lbnRJZGVudGlmaWVyIjogImJpcnRoX2RhdGUiLAogICAgICAgICJlbGVtZW50VmFsdWUiOiAiJHtkYXRlT2ZCaXJ0aH0iCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiZGlnZXN0SUQiOiA1LAogICAgICAgICJlbGVtZW50SWRlbnRpZmllciI6ICJzdGF0ZSIsCiAgICAgICAgImVsZW1lbnRWYWx1ZSI6ICIke3N0YXRlfSIKICAgICAgfSwKICAgICAgewogICAgICAgICJkaWdlc3RJRCI6IDYsCiAgICAgICAgImVsZW1lbnRJZGVudGlmaWVyIjogImZhcm1lcl9pZCIsCiAgICAgICAgImVsZW1lbnRWYWx1ZSI6ICIke2Zhcm1lcklEfSIKICAgICAgfSwKICAgICAgewogICAgICAgICJkaWdlc3RJRCI6IDcsCiAgICAgICAgImVsZW1lbnRJZGVudGlmaWVyIjogImxhbmRfb3duZXJzaGlwX3R5cGUiLAogICAgICAgICJlbGVtZW50VmFsdWUiOiAiJHtsYW5kT3duZXJzaGlwVHlwZX0iCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiZGlnZXN0SUQiOiA4LAogICAgICAgICJlbGVtZW50SWRlbnRpZmllciI6ICJwcmltYXJ5X2Nyb3BfdHlwZSIsCiAgICAgICAgImVsZW1lbnRWYWx1ZSI6ICIke3ByaW1hcnlDcm9wVHlwZX0iCiAgICAgIH0KICAgIF0KICB9LAogICJkb2NUeXBlIjogIiR7X2RvY1R5cGV9IiwKICAidmFsaWRpdHlJbmZvIjogewogICAgInZhbGlkRnJvbSI6ICIke3ZhbGlkRnJvbX0iLAogICAgInZhbGlkVW50aWwiOiAiJHt2YWxpZFVudGlsfSIKICB9Cn0=",
+    "keyManagerAppId": "CERTIFY_VC_SIGN_EC_R1",
+    "keyManagerRefId": "EC_SECP256R1_SIGN",
+    "signatureAlgo": "ES256",
+    "signatureCryptoSuite": "EcdsaSecp256r1Signature2019",
+    "credentialFormat": "mso_mdoc",
+    "doctype": "org.iso.18013.5.1.mDL",
+    "didUrl": "did:web:piyush7034.github.io:DID:piyush-mdoc",
+    "metaDataDisplay": [{
+        "name": "DrivingLicenseCredential",
+        "locale": "en",
+        "logo": {
+        "url": "https://example.com/logo.png",
+        "alt_text": "Driving License Logo"
+        },
+        "background_color": "#12107c",
+        "background_image": { "uri": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png" },
+        "text_color": "#FFFFFF"
+    }],
+    "displayOrder": [
+        "org.iso.18013.5.1.mDL~fullName",
+        "org.iso.18013.5.1.mDL~mobileNumber",
+        "org.iso.18013.5.1.mDL~dateOfBirth",
+        "org.iso.18013.5.1.mDL~gender",
+        "org.iso.18013.5.1.mDL~state",
+        "org.iso.18013.5.1.mDL~district",
+        "org.iso.18013.5.1.mDL~villageOrTown",
+        "org.iso.18013.5.1.mDL~postalCode",
+        "org.iso.18013.5.1.mDL~landArea",
+        "org.iso.18013.5.1.mDL~landOwnershipType",
+        "org.iso.18013.5.1.mDL~primaryCropType",
+        "org.iso.18013.5.1.mDL~secondaryCropType",
+        "org.iso.18013.5.1.mDL~farmerID"
+    ],
+    "scope": "sample_vc_ldp",
+    "msoMdocClaims": {
+        "org.iso.18013.5.1.mDL": {
+            "fullName": {
+                "display": [
+                    {
+                        "name": "Full Name", 
+                        "locale": "en"
+                    }
+                ]
+            },
+            "phone": {
+                "display": [
+                    {
+                        "name": "Phone Number", 
+                        "locale": "en"
+                    }
+                ]
+            },
+            "dateOfBirth": {
+                "display": [
+                    {
+                        "name": "Date of Birth", 
+                        "locale": "en"
+                    }
+                ]
+            },
+            "gender": {
+                "display": [
+                    {
+                        "name": "Gender", 
+                        "locale": "en"
+                    }
+                ]
+            }
+        }
+    }
+}
