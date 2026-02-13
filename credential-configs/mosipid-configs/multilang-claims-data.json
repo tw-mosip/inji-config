@@ -1,0 +1,34 @@
+{
+  "sub": "268115405751941350849175434171934811",
+  "birthdate": "1992/04/15",
+  "name#en": "TEST_FULLNAMEeng",
+  "name#fr": "TEST_FULLNAMEfra",
+  "individual_id": "2360714802",
+  "address#en": {
+    "postal_code#en": "14022",
+    "region#en": "TEST_REGIONeng",
+    "country#en": "TEST_PROVINCEeng",
+    "street_address#en": "TEST_ADDRESSLINE1eng       TEST_ADDRESSLINE2eng       TEST_ADDRESSLINE3eng",
+    "locality#en": "TEST_CITYeng"
+  },
+  "address#fr": {
+    "country#fr": "TEST_PROVINCEfra   ",
+    "postal_code#fr": "14022",
+    "region#fr": "TEST_REGIONfra   ",
+    "locality#fr": "TEST_CITYfra   ",
+    "street_address#fr": "TEST_ADDRESSLINE1fra       TEST_ADDRESSLINE2fra       TEST_ADDRESSLINE3fra   "
+  },
+  "gender#hi": "MLE",
+  "phone_number": "+4046573547",
+  "gender#fr": "MLE",
+  "name#hi": "TEST_FULLNAMEhin",
+  "address#hi": {
+    "country#hi": "TEST_PROVINCEhin ",
+    "street_address#hi": "TEST_ADDRESSLINE1hin       TEST_ADDRESSLINE2hin       TEST_ADDRESSLINE3hin ",
+    "locality#hi": "TEST_CITYhin ",
+    "postal_code#hi": "14022",
+    "region#hi": "TEST_REGIONhin "
+  },
+  "gender#en": "MLE",
+  "email": "InjiWeb_AddIdentity_withValidParameters_smoke_Pos@mosip.net"
+}

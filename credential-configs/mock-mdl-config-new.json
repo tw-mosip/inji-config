@@ -1,0 +1,83 @@
+{
+    "credentialConfigKeyId": "DrivingLicenseCredential",
+    "vcTemplate": "ewogICJuYW1lU3BhY2VzIjogewogICAgIm9yZy5pc28uMTgwMTMuNS4xIjogWwogICAgICB7CiAgICAgICAgImRpZ2VzdElEIjogMCwKICAgICAgICAiZWxlbWVudElkZW50aWZpZXIiOiAiZmFtaWx5X25hbWUiLAogICAgICAgICJlbGVtZW50VmFsdWUiOiAiJHtmYW1pbHlOYW1lfSIKICAgICAgfSwKICAgICAgewogICAgICAgICJkaWdlc3RJRCI6IDEsCiAgICAgICAgImVsZW1lbnRJZGVudGlmaWVyIjogImdpdmVuX25hbWUiLAogICAgICAgICJlbGVtZW50VmFsdWUiOiAiJHtnaXZlbk5hbWV9IgogICAgICB9LAogICAgICB7CiAgICAgICAgImRpZ2VzdElEIjogMiwKICAgICAgICAiZWxlbWVudElkZW50aWZpZXIiOiAiYmlydGhfZGF0ZSIsCiAgICAgICAgImVsZW1lbnRWYWx1ZSI6ICIke2JpcnRoRGF0ZX0iCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiZGlnZXN0SUQiOiA1LAogICAgICAgICJlbGVtZW50SWRlbnRpZmllciI6ICJkb2N1bWVudF9udW1iZXIiLAogICAgICAgICJlbGVtZW50VmFsdWUiOiAiJHtkb2N1bWVudE51bWJlcn0iCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiZGlnZXN0SUQiOiA2LAogICAgICAgICJlbGVtZW50SWRlbnRpZmllciI6ICJwb3J0cmFpdCIsCiAgICAgICAgImVsZW1lbnRWYWx1ZSI6ICIke3BvcnRyYWl0fSIKICAgICAgfSwKICAgICAgewogICAgICAgICJkaWdlc3RJRCI6IDcsCiAgICAgICAgImVsZW1lbnRJZGVudGlmaWVyIjogImRyaXZpbmdfcHJpdmlsZWdlcyIsCiAgICAgICAgImVsZW1lbnRWYWx1ZSI6ICR7ZHJpdmluZ1ByaXZpbGVnZXN9CiAgICAgIH0KICAgIF0KICB9LAogICJkb2NUeXBlIjogIiR7X2RvY1R5cGV9IiwKICAidmFsaWRpdHlJbmZvIjogewogICAgInZhbGlkRnJvbSI6ICIke192YWxpZEZyb219IiwKICAgICJ2YWxpZFVudGlsIjogIiR7X3ZhbGlkVW50aWx9IgogIH0KfQ==",
+    "keyManagerAppId": "CERTIFY_VC_SIGN_EC_R1",
+    "keyManagerRefId": "EC_SECP256R1_SIGN",
+    "signatureAlgo": "ES256",
+    "signatureCryptoSuite": "EcdsaSecp256r1Signature2019",
+    "credentialFormat": "mso_mdoc",
+    "doctype": "org.iso.18013.5.1.mDL",
+    "didUrl": "did:web:inji.github.io:inji-config:dev-int-inji:mock-mdl",
+    "metaDataDisplay": [{
+        "name": "DrivingLicenseCredential",
+        "locale": "en",
+        "logo": {
+        "url": "https://example.com/logo.png",
+        "alt_text": "Driving License Logo"
+        },
+        "background_color": "#12107c",
+        "background_image": { "uri": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png" },
+        "text_color": "#FFFFFF"
+    }],
+    "displayOrder": [
+        "org.iso.18013.5.1.mDL~family_name",
+        "org.iso.18013.5.1.mDL~given_name",
+        "org.iso.18013.5.1.mDL~birth_date",
+        "org.iso.18013.5.1.mDL~document_number",
+        "org.iso.18013.5.1.mDL~portrait",
+        "org.iso.18013.5.1.mDL~driving_privileges"
+    ],
+    "scope": "sample_vc_mdoc",
+    "msoMdocClaims": {
+        "org.iso.18013.5.1.mDL": {
+            "family_name": {
+                "display": [
+                    {
+                        "name": "Family Name", 
+                        "locale": "en"
+                    }
+                ]
+            },
+            "given_name": {
+                "display": [
+                    {
+                        "name": "Given Name", 
+                        "locale": "en"
+                    }
+                ]
+            },
+            "birth_date": {
+                "display": [
+                    {
+                        "name": "Date of Birth", 
+                        "locale": "en"
+                    }
+                ]
+            },
+            "document_number": {
+                "display": [
+                    {
+                        "name": "Document Number", 
+                        "locale": "en"
+                    }
+                ]
+            },
+            "portrait": {
+                "display": [
+                    {
+                        "name": "Portrait", 
+                        "locale": "en"
+                    }
+                ]
+            },
+            "driving_privileges": {
+                "display": [
+                    {
+                        "name": "Driving Privileges", 
+                        "locale": "en"
+                    }
+                ]
+            }
+        }
+    }
+}

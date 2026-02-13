@@ -1,0 +1,21 @@
+{
+    "id": "did:example:farmer123",
+    "fullName": "Ravi Kumar",
+    "dob": "1985-03-15",
+    "gender": "M",
+    "contactNumber": "+91-9876543210",
+    "email": "ravi.kumar@example.com",
+      "locality": "Mandya",
+      "district": "Mandya",
+      "state": "Karnataka",
+      "country": "India",
+      "farmId": "FARM-001",
+      "areaInHectares": 2.5,
+      "cropType": "Paddy",
+      "ownershipType": "Owned",
+      "type": "SubsidyScheme",
+      "schemeName": "PM-KISAN",
+      "schemeId": "SCH-123",
+      "amountReceived": 6000,
+      "lastDisbursedOn": "2025-09-01"
+  }
